@@ -1,0 +1,146 @@
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-background-with-diagonal-lines_23-2150541448.jpg?t=st=1714761857~exp=1714765457~hmac=fd3a0f2fc88b50f0307467bc4ed6dd0808c117fd43c03a9ede074946dda746cf&w=2000) ;
+    background-size: cover;
+    background-position: center;
+}
+.box {
+    width: 420px;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255,255,255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding:30px  40px;
+}
+.box h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.box .input-box {
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgb(255,255, 255 , .2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+
+}
+.input-box input::placeholder {
+    color: rgb(248, 248, 248);
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.box .remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -15px 0 15px ;
+    font-size: 14.5px;
+}
+.remember label input {
+    accent-color: white;
+    margin-right: 4px; 
+}
+.remember a {
+    color: white;
+    text-decoration: none;
+}
+.remember a:hover {
+    text-decoration: underline;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+.box .register {
+    font-size: 14.5px;
+    color: white;
+    text-align: center;
+    margin : 20px 0 15px;
+
+}
+.register p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.register p a:hover {
+    text-decoration: underline;
+}
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+     padding: 20px 100px;
+     background: transparent;
+     -webkit-backdrop-filter:saturate(120%) blur(10px);
+     backdrop-filter: saturate(120%) blur(20px);    
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 999999;
+     position: fixed;
+ }
+ .logo {
+     font-size: 32px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 700;
+ }
+ .navbar a {
+     position: relative;
+     
+     font-size: 18px;
+     font-weight: 500;
+     color: #fff;
+     text-decoration: none;
+     margin-left: 40px;
+ }
+ .navbar a::before {
+     content: '';
+     position: absolute;
+     left: 0;
+     top: 100%;
+     width: 0%;
+     height: 2px;
+     background: #fff;
+     transition: .3s;
+ }
+ .navbar a:hover::before {
+     width: 100%;
+ }

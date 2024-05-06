@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vh;
+    background: url(japan.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+   top: 0;
+   left: 0;
+   width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    -webkit-backdrop-filter:saturate(120%) blur(10px);
+    backdrop-filter: saturate(120%) blur(20px);    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+    position: fixed;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+.h1 {
+
+font-size:100px;
+  text-align:center;
+  color:#000000;
+  background-image: linear-gradient(to right, #ffffff 0%, #7b7b7b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:all .4s ease-in-out;
+  transform:scale(1);
+  cursor:pointer;
+  margin-top: 150px;
+  margin-bottom: 50px;
+
+}
+.h1:hover {
+    background-image:linear-gradient(to right, #f8c301, #d80198);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform:scale(1.1);
+
+}
