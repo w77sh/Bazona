@@ -1,9 +1,71 @@
-# Bazona
-![440144469_778372597735493_5046969845815978562_n](https://github.com/w77sh/Bazona/assets/74508174/120bb319-2f67-49fb-a079-67bdc06178af)
+# Bazona :cat:
+ **Welcome To the Website Repository**
 
 
- _   _      _ _        __        __         _     _ _ 
+
+<details>
+
+<summary>What this small website contain?</summary>
+
+**This website contain**
+* Home page
+ - contain name of the page
+* Gallery page
+  - Images
+* About Us page
+  - details of the website
+* Login Page
+
+</details>
+
+````
+
+_   _      _ _        __        __         _     _ _ 
 | | | | ___| | | ___   \ \      / /__  _ __| | __| | |
 | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` | |
 |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |_|
 |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_(_)
+
+
+````
+
+```cpp
+void display () {
+cout << "THis is display function";
+}
+```
+Check my youtube Channel [Click Here](https://www.youtube.com/@MonsterKing1)
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
+
