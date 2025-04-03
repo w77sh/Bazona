@@ -10,7 +10,10 @@ body {
     background: url(japan.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    -webkit-font-smoothing : antialiased;
+    font-synthesis: none;
 }
+
 .header {
    top: 0;
    left: 0;
@@ -49,6 +52,7 @@ body {
     height: 2px;
     background: #fff;
     transition: .3s;
+    
 }
 .navbar a:hover::before {
     width: 100%;
